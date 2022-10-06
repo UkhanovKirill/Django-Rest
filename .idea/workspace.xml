@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb19b571-6005-44bd-847b-3639cbe9a4e6" name="Changes" comment="create Users app and serializers">
-      <change afterPath="$PROJECT_DIR$/todo/.gitignore" afterDir="false" />
+    <list default="true" id="eb19b571-6005-44bd-847b-3639cbe9a4e6" name="Changes" comment="project add">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/todo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/todo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/todo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/todo/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson1" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,6 +46,11 @@
     "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
       <module name="Django-Rest" />
@@ -58,7 +66,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
+      <option name="port" value="8031" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
@@ -77,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665056546939</updated>
-      <workItem from="1665056548998" duration="6757000" />
+      <workItem from="1665056548998" duration="7391000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1665066142506</created>
@@ -86,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665066142506</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gitignore">
+      <created>1665068948170</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665068948170</updated>
+    </task>
+    <task id="LOCAL-00003" summary="project add">
+      <created>1665069153894</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665069153894</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,10 +138,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gitignore" />
     <MESSAGE value="create Users app" />
     <MESSAGE value="create Users serializers" />
     <MESSAGE value="create Users app and serializers" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Users app and serializers" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="project add" />
+    <option name="LAST_COMMIT_MESSAGE" value="project add" />
   </component>
 </project>
