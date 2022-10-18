@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb19b571-6005-44bd-847b-3639cbe9a4e6" name="Changes" comment="correction">
+    <list default="true" id="eb19b571-6005-44bd-847b-3639cbe9a4e6" name="Changes" comment="create-react-app frontend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/todo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/todo/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,17 +20,23 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lesson1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/todo/frontend/src/App.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/todo/frontend/src/components/User.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/todo/todo/settings.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,9 +52,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/kirill/Django Project/Django-Rest/todo/manage.py",
+    "last_opened_file_path": "/home/kirill/Django Project/todo",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -52,9 +62,9 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Django Server.Unnamed">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="Django-Rest" />
+      <module name="todo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -76,7 +86,7 @@
       <method v="2" />
     </configuration>
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Django-Rest" />
+      <module name="todo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -98,23 +108,23 @@
       <method v="2" />
     </configuration>
     <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
-      <module name="Django-Rest" />
+      <module name="todo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="Django-Rest" />
+        <env name="DJANGO_SETTINGS_MODULE" value="todo" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/../venv/bin/python3" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="false" />
-      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -122,7 +132,7 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <module name="Django-Rest" />
+      <module name="todo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -160,7 +170,8 @@
       <workItem from="1665056548998" duration="9370000" />
       <workItem from="1665091948334" duration="497000" />
       <workItem from="1666002432508" duration="3371000" />
-      <workItem from="1666093973188" duration="4932000" />
+      <workItem from="1666093973188" duration="12410000" />
+      <workItem from="1666107146156" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1665066142506</created>
@@ -204,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666094088873</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create-react-app frontend">
+      <created>1666099184653</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666099184653</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,10 +260,12 @@
     <MESSAGE value="startapp users" />
     <MESSAGE value="add serializers" />
     <MESSAGE value="correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction" />
+    <MESSAGE value="create-react-app frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="create-react-app frontend" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Django_Rest$urls.coverage" NAME="urls Coverage Results" MODIFIED="1666004477617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/todo/todo" />
-    <SUITE FILE_PATH="coverage/Django_Rest$manage.coverage" NAME="manage Coverage Results" MODIFIED="1666094188100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/todo" />
+    <SUITE FILE_PATH="coverage/todo$manage.coverage" NAME="manage Coverage Results" MODIFIED="1666107327690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/todo" />
+    <SUITE FILE_PATH="coverage/Django_Rest$manage.coverage" NAME="manage Coverage Results" MODIFIED="1666105967745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/todo" />
   </component>
 </project>
